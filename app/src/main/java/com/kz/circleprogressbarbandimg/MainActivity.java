@@ -13,7 +13,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initView();
-
         //设置当前进度条百分比
         circle_progressbar.setProgress(20);
         //点击完进度条之后进度条重新执行动画
