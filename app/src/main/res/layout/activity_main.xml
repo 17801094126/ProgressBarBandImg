@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3a9dfc"
+    tools:context=".MainActivity">
+
+   <com.kz.circleprogressbarbandimg.CircleProgressBar
+       android:id="@+id/circle_progressbar"
+       android:layout_width="230dp"
+       android:layout_height="230dp"
+       android:layout_marginLeft="43dp"
+       app:direction="top"
+       app:max_progress="100"
+       app:outside_color="@color/inside_color"
+       app:outside_radius="100dp"
+       app:progress="0"
+       app:progress_text_color="@color/inside_color"
+       app:progress_text_size="40dp"
+       app:progress_width="6dp"
+       app:title="进度条百分比"
+       app:title_color="#9CCBFD"
+       android:layout_marginRight="50dp"
+       app:title_size="14dp"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintLeft_toLeftOf="parent"
+       app:layout_constraintRight_toRightOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>
